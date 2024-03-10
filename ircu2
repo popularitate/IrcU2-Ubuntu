@@ -28,6 +28,9 @@ OS SUPPORT: Ubuntu 20.04.2 LTS \n \l - Server / Raspberry Pi 4
 	gnuworld@ircd:~/ircu2 ./configure --prefix=$HOME --with-maxcon=1024  NOTE:( Maximum number of connections server will accept. --with-maxcon=1024 )	
 	
 	Note if you have Raspberry pi 4 use this flag ./configure --build=unknown-unknown-linux --prefix=$HOME --with-maxcon=1024
+
+        sudo apt-get install bison -y
+        sudo apt-get install byacc -y
 	
 	gnuworld@ircd:~/ircu2 make
 	gnuworld@ircd:~/ircu2 make install
